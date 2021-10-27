@@ -1,0 +1,47 @@
+body{
+    background:black;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: cadetblue;
+
+}
+.clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #009688;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 7px;
+}
+footer{
+    position: fixed;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+#copy p{
+    color:#009688;
+    font-size: 12px;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+
+@media screen and (max-width: 770px){
+    #copy p{
+        color:#009688;
+        font-size: 8px;
+        text-align: center;
+    }
+}
